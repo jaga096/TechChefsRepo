@@ -1,0 +1,17 @@
+-- please use the below data to test the api's
+
+http://localhost:8080/techchefs/api/ping
+
+http://localhost:8080/techchefs/api/register?userName=abc&password=pass (POST)
+
+http://localhost:8080/techchefs/api/login?userName=abc&password=pass (POST)
+
+http://localhost:8080/techchefs/api/getBankList?userName=abc (GET)
+
+http://localhost:8080/techchefs/api/geBankData/HDFC (GET)
+
+http://localhost:8080/techchefs/api/logintobank/HDFC?userName=admin&password=pass&corpId=112(POST)
+
+http://localhost:8080/techchefs/api/getAccounts/HDFC (GET)
+
+http://localhost:8080/techchefs/api/getTransactionData/1234556789 (GET)
